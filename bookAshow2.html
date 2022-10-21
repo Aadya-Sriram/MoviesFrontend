@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Done</title>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+
+ <style>
+    *{font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+    body{background-color: #333;}
+    .img{text-align: center;}
+ </style>
+  <script>
+    Swal.fire({
+  icon: 'info',
+  title: 'Alert',
+  text: 'Please use the same email and password in the theater',
+})
+function redirect() {
+  location.href="theater.html"
+}
+  </script>
+  <div class="img">
+<a href="theater.html" style="background-color:transparent;-webkit-tap-highlight-color: transparent;" role="button"><img width="290px" src="./maps.png" alt=""></a>
+<h1>Find a nearby theater</h1>
+</div>
+<div class="img">
+  <a href="index.html" style="background-color:transparent;-webkit-tap-highlight-color: transparent;" role="button"><img width="290px" src="./home.png" alt=""></a>
+  <h1>Go back to homepage</h1>
+  </div>
+</body>
+</html>
